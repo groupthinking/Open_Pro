@@ -1,6 +1,6 @@
 # Palantir Alignment Overview
 
-This table maps core Palantir platform components to your projects' architectures, highlighting similarities and actionable next steps for MCP‑first integration.
+This table shows how core Palantir platform components align with your projects' architectures. It highlights key similarities and provides actionable next steps for MCP‑first integration.
 
 | Palantir Component       | Your Project                         | Key Similarities                                             | Next Action                                           |
 |--------------------------|--------------------------------------|--------------------------------------------------------------|-------------------------------------------------------|
@@ -10,35 +10,47 @@ This table maps core Palantir platform components to your projects' architecture
 | **Public Sector**        | PublicMind Civic Data Initiative     | Centralized civic datasets; analytics for public engagement  | Demo data ingestion from a sample municipality        |
 | **Data Enrichment**      | Competitor Intelligence Network      | Cross‑source ingestion; enrichment & interoperability        | Prototype a drag‑and‑drop enrichment UI in React      |
 
+> *Tip: Consider generating this mapping dynamically from JSON/YAML to ease maintenance as your project list grows.*
+
 ---
 
 ## Getting Started
 
-1. Clone this repo  
+1. **Clone this repo**
+   
+   Ensure you have SSH keys set up for GitHub. If you don't, use the HTTPS URL below.
    ```bash
+   # Using SSH (preferred)
    git clone git@github.com:your-org/palantir-alignment.git
+   # Or, using HTTPS (fallback)
+   git clone https://github.com/your-org/palantir-alignment.git
    cd palantir-alignment
    ```
-   Review the alignment table above.
 
-   See REPO_SETUP.md (untracked) for local environment and CI/CD hints.
+2. **Review the alignment table** above.
 
-   Generated and maintained with GitHub Copilot in Cursor.
+3. **Open `REPO_SETUP.md`** (untracked) for local environment and CI/CD hints.
 
 ---
 
-### Next Steps
+## Next Steps
 
-1. **Commit the README changes**  
+1. **Commit the README changes**
    ```bash
    git add README.md
-   git commit -m "Fix table layout and complete Palantir alignment overview"
+   git commit -m "Reposition dynamic generation tip outside table and unify step formatting"
    ```
-2. Add REPO_SETUP.md (details on how to bootstrap your local environment, linters, CI checks, etc.)
-3. Push to GitHub
+
+2. **Add `REPO_SETUP.md`** (details on how to bootstrap your local environment, linters, CI checks, etc.)
+
+3. **Push to GitHub**
    ```bash
    git push origin main
    ```
-4. Enable GitHub Pages (if you want a live site) under Settings → Pages.
 
-Let me know if you need tweaks to the column contents, the intro/footer, or guidance on automating table‑format checks in CI! 
+4. **Enable GitHub Pages** (if you want a live site) under **Settings → Pages**.
+
+---
+
+*Generated and maintained with GitHub Copilot in Cursor.*  
+*Timestamp is now automated via a pre-commit hook.* 
