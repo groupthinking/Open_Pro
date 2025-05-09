@@ -1,0 +1,7 @@
+title: Palantir Alignment
+description: Mapping Palantir components to your project architecture with MCP-first integration
+url: https://openprotocol.ai
+remote_theme: pages-themes/cayman@v0.2.0
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
