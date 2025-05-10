@@ -1,14 +1,14 @@
 # Projet Alignment Overview
 
-This table shows how core Palantir platform components align with your projects' architectures. It highlights key similarities and provides actionable next steps for MCP‑first integration.
+This table shows core platform components within your projects' architectures. Highlighting key similarities and provides actionable next steps for MCP‑first integration.
 
-| Palantir Component       | Your Project                         | Key Similarities                                             | Next Action                                           |
+| Your Project                         | Key Similarities                                             | Next Action                                           |
 |--------------------------|--------------------------------------|--------------------------------------------------------------|-------------------------------------------------------|
-| **Foundry Ontology**     | Context Consolidation Engine (CCE)   | Unified knowledge graph; semantic layering                   | Map CCE schema into Foundry's Ontology model          |
-| **Gotham Decision Loop** | Quantum‑MCP Forecast Engine          | Real‑time anomaly detection; automated decision triggers     | Build a Gotham‑style dashboard with live KPI feeds    |
-| **AI Mesh (AIP)**        | AI‑Driven Logistics Automation       | Generative AI → SOP workflows; hybrid cloud/edge deployment  | Containerize agents for Apollo and deploy end‑to‑end  |
-| **Public Sector**        | PublicMind Civic Data Initiative     | Centralized civic datasets; analytics for public engagement  | Demo data ingestion from a sample municipality        |
-| **Data Enrichment**      | Competitor Intelligence Network      | Cross‑source ingestion; enrichment & interoperability        | Prototype a drag‑and‑drop enrichment UI in React      |
+| Context Consolidation Engine (CCE)   | Unified knowledge graph; semantic layering                   | Map CCE schema into Foundry's Ontology model          |
+| Quantum‑MCP Forecast Engine          | Real‑time anomaly detection; automated decision triggers     | Build a Gotham‑style dashboard with live KPI feeds    |
+| AI‑Driven Logistics Automation       | Generative AI → SOP workflows; hybrid cloud/edge deployment  | Containerize agents for Apollo and deploy end‑to‑end  |
+| PublicMind Civic Data Initiative     | Centralized civic datasets; analytics for public engagement  | Demo data ingestion from a sample municipality        |
+| Competitor Intelligence Network      | Cross‑source ingestion; enrichment & interoperability        | Prototype a drag‑and‑drop enrichment UI in React      |
 
 > *Tip: Consider generating this mapping dynamically from JSON/YAML to ease maintenance as your project list grows.*
 
@@ -21,10 +21,10 @@ This table shows how core Palantir platform components align with your projects'
    Ensure you have SSH keys set up for GitHub. If you don't, use the HTTPS URL below.
    ```bash
    # Using SSH (preferred)
-   git clone git@github.com:your-org/palantir-alignment.git
+   git clone git@github.com:your-org/OPEN_PRO.git
    # Or, using HTTPS (fallback)
-   git clone https://github.com/your-org/palantir-alignment.git
-   cd palantir-alignment
+   git clone https://github.com/your-org/OPEN_PRO.git
+   cd OPEN_PRO
    ```
 
 2. **Review the alignment table** above.
