@@ -1,5 +1,5 @@
-title: Palantir Alignment
-description: Mapping Palantir components to your project architecture with MCP-first integration
+title: Open Protocol
+description: Enabling seamless integration between AI systems and data sources with MCP-first architecture
 url: https://openprotocol.ai
 remote_theme: pages-themes/cayman@v0.2.0
 plugins:
