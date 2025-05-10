@@ -1,4 +1,4 @@
-# Palantir Alignment Overview
+# Projet Alignment Overview
 
 This table shows how core Palantir platform components align with your projects' architectures. It highlights key similarities and provides actionable next steps for MCP‑first integration.
 
